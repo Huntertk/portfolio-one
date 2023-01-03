@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+section, header{
+   padding: 100px 0;
+}
+.container{
+    width: 570px;
+    margin: 0 auto;
+    
+}
+.dark{
+    background-color: #252525;
+    color: #fff;
+}
+.section-two{
+    background-color: #fff;
+    color: #252525;
+}
+.main-img{
+    border-radius: 50%;
+    height: 300px;
+    border: 6px solid #eaf9ff;
+}
+.heading-bolding{
+    display: block;
+}
+.heading-bolding,.name,time{
+    font-weight: 900;
+    color: #99d930;
+}
+h1 .heading-bolding{
+    font-size: 80px;
+}
+h2 .heading-bolding{
+    font-size: 60px;
+}
+h1,h2{
+    font-weight: 300;
+
+
+}
+h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+h2{
+    font-size: 42px;
+    margin-top: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a{
+    color: #99d930;
+    font-weight: 900;
+}
+a:hover,
+a:focus,
+a:active{
+    color: #131313;
+}
+.small-text{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4.6px;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+    background-color: #252525;
+    color: #99d930;
+}
